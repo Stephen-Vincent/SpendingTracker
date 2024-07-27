@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Simple Spending Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The Simple Spending Tracker is a web application built with React and Vite, using TypeScript for type safety and Bootstrap for styling. It allows users to manage their expenses by adding, categorizing, viewing the total expenses, and deleting entries. The application provides a straightforward and user-friendly interface to help users track their spending efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+### Add Expense:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Users can add new expenses by providing a description, amount, and selecting a category.
 
-- Configure the top-level `parserOptions` property like this:
+### Categorise Expense:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Each expense can be categorized to help users understand their spending habits.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### View Total Expenses:
+
+The application displays the total amount of expenses.
+
+### Delete Expense:
+
+Users can delete an expense entry if it is no longer needed.
+
+## Technologies Used
+
+- React: A JavaScript library for building user interfaces.
+- Vite: A build tool that provides a fast development environment.
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+- Bootstrap: A CSS framework for building responsive and mobile-first websites.
